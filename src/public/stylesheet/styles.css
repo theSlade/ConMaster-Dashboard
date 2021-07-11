@@ -1,0 +1,280 @@
+* {
+  padding: 0%;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+.index-body {
+  background-color: #333;
+  color: #fff;
+}
+
+/* Header */
+
+.header-h1 {
+  text-align: center;
+  margin-top: 10rem;
+  font-size: 30px;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.header-p {
+  text-align: center;
+  font-size: 15px;
+  margin-top: 2rem;
+  font-family: 'Fira Code', monospace;
+}
+/* Account */
+.H3 {
+  font-size: 20px;
+  text-align: center;
+  margin-top: 5%;
+}
+
+.email {
+  text-align: center;
+  font-family: 'Fira Code', monospace;
+}
+
+.username {
+  text-align: center;
+  font-family: 'Fira Code', monospace;
+}
+
+.discordId {
+  text-align: center;
+  font-family: 'Fira Code', monospace;
+}
+
+.middle-btn-tree {
+  text-decoration: none;
+  padding: 0.7rem 1.5rem;
+  background: none;
+  border: 1px solid #fff;
+  color: #fff;
+  transition: background-color 0.7s;
+  margin: 0;
+  position: absolute;
+  top: 60%;
+  margin-left: 46%;
+  -ms-transform: translateY(-50%);
+  transform: translateY(-50%);
+  box-shadow: 0px 0px 50px 1px rgba(0, 0, 0, 0.35);
+  cursor: pointer;
+}
+
+.middle-btn-tree:hover {
+  background-color: #fff;
+  color: #101010;
+  box-shadow: 0px 0px 50px 1px rgba(0, 0, 0, 0.35);
+  cursor: pointer;
+}
+
+
+/* Middle */
+
+/* The first button */
+.middle-btn {
+  text-decoration: none;
+  padding: 0.7rem 1.5rem;
+  background: none;
+  border: 1px solid #fff;
+  color: #fff;
+  transition: background-color 0.7s;
+  margin: 0;
+  position: absolute;
+  top: 40%;
+  margin-left: 35em;
+  -ms-transform: translateY(-50%);
+  transform: translateY(-50%);
+  box-shadow: 0px 0px 50px 1px rgba(0, 0, 0, 0.35);
+  cursor: pointer;
+}
+.middle-btn:hover {
+  background-color: #fff;
+  color: #101010;
+  box-shadow: 0px 0px 50px 1px rgba(0, 0, 0, 0.35);
+  cursor: pointer;
+}
+
+/* The Secon Button*/
+
+.middle-btn-two {
+  text-decoration: none;
+  padding: 0.7rem 1.5rem;
+  background: none;
+  border: 1px solid #fff;
+  color: #fff;
+  transition: background-color 0.7s;
+  margin: 0;
+  position: absolute;
+  top: 40%;
+  margin-left: 46em;
+  -ms-transform: translateY(-50%);
+  transform: translateY(-50%);
+  box-shadow: 0px 0px 50px 1px rgba(0, 0, 0, 0.35);
+  cursor: pointer;
+}
+
+.middle-btn-two:hover {
+  background-color: #fff;
+  color: #101010;
+  box-shadow: 0px 0px 50px 1px rgba(0, 0, 0, 0.35);
+  cursor: pointer;
+}
+
+/* Mobile Design */
+
+
+@media screen and (max-width: 800px) {
+
+  /* The first button */
+.middle-btn {
+  text-decoration: none;
+  padding: 0.7rem 1.5rem;
+  background: none;
+  border: 1px solid #fff;
+  color: #fff;
+  transition: background-color 0.7s;
+  margin: 0;
+  position: absolute;
+  top: 45%;
+  margin-left: 2em;
+  -ms-transform: translateY(-50%);
+  transform: translateY(-50%);
+  box-shadow: 0px 0px 50px 1px rgba(0, 0, 0, 0.35);
+  cursor: pointer;
+}
+.middle-btn:hover {
+  background-color: #fff;
+  color: #101010;
+  box-shadow: 0px 0px 50px 1px rgba(0, 0, 0, 0.35);
+  cursor: pointer;
+}
+
+.middle-btn-tree {
+  text-decoration: none;
+  padding: 0.7rem 1.5rem;
+  background: none;
+  border: 1px solid #fff;
+  color: #fff;
+  transition: background-color 0.7s;
+  margin: 0;
+  position: absolute;
+  top: 60%;
+  margin-left: 35%;
+  -ms-transform: translateY(-50%);
+  transform: translateY(-50%);
+  box-shadow: 0px 0px 50px 1px rgba(0, 0, 0, 0.35);
+  cursor: pointer;
+}
+
+.middle-btn-tree:hover {
+  background-color: #fff;
+  color: #101010;
+  box-shadow: 0px 0px 50px 1px rgba(0, 0, 0, 0.35);
+  cursor: pointer;
+}
+
+/* The Secon Button*/
+
+.middle-btn-two {
+  text-decoration: none;
+  padding: 0.7rem 1.5rem;
+  background: none;
+  border: 1px solid #fff;
+  color: #fff;
+  transition: background-color 0.7s;
+  margin: 0;
+  position: absolute;
+  top: 45%;
+  margin-left: 14em;
+  -ms-transform: translateY(-50%);
+  transform: translateY(-50%);
+  box-shadow: 0px 0px 50px 1px rgba(0, 0, 0, 0.35);
+  cursor: pointer;
+}
+
+.middle-btn-two:hover {
+  background-color: #fff;
+  color: #101010;
+  box-shadow: 0px 0px 50px 1px rgba(0, 0, 0, 0.35);
+  cursor: pointer;
+}
+}
+
+@media screen and (max-width: 568px) {
+      /* The first button */
+.middle-btn {
+  text-decoration: none;
+  padding: 0.5rem 1rem;
+  background: none;
+  border: 1px solid #fff;
+  color: #fff;
+  transition: background-color 0.7s;
+  margin: 0;
+  position: absolute;
+  top: 64%;
+  margin-left: 0.5em;
+  -ms-transform: translateY(-50%);
+  transform: translateY(-50%);
+  box-shadow: 0px 0px 50px 1px rgba(0, 0, 0, 0.35);
+  cursor: pointer;
+}
+.middle-btn:hover {
+  background-color: #fff;
+  color: #101010;
+  box-shadow: 0px 0px 50px 1px rgba(0, 0, 0, 0.35);
+  cursor: pointer;
+}
+
+.middle-btn-tree {
+  text-decoration: none;
+  padding: 0.7rem 1.5rem;
+  background: none;
+  border: 1px solid #fff;
+  color: #fff;
+  transition: background-color 0.7s;
+  margin: 0;
+  position: absolute;
+  top: 66%;
+  margin-left: 34%;
+  -ms-transform: translateY(-50%);
+  transform: translateY(-50%);
+  box-shadow: 0px 0px 50px 1px rgba(0, 0, 0, 0.35);
+  cursor: pointer;
+}
+
+.middle-btn-tree:hover {
+  background-color: #fff;
+  color: #101010;
+  box-shadow: 0px 0px 50px 1px rgba(0, 0, 0, 0.35);
+  cursor: pointer;
+}
+
+/* The Secon Button*/
+
+.middle-btn-two {
+  text-decoration: none;
+  padding: 0.5rem 1rem;
+  background: none;
+  border: 1px solid #fff;
+  color: #fff;
+  transition: background-color 0.7s;
+  margin: 0;
+  position: absolute;
+  top: 64%;
+  margin-left: 10em;
+  -ms-transform: translateY(-50%);
+  transform: translateY(-50%);
+  box-shadow: 0px 0px 50px 1px rgba(0, 0, 0, 0.35);
+  cursor: pointer;
+}
+
+.middle-btn-two:hover {
+  background-color: #fff;
+  color: #101010;
+  box-shadow: 0px 0px 50px 1px rgba(0, 0, 0, 0.35);
+  cursor: pointer;
+}
+}
